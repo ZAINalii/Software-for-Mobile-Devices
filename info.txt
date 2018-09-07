@@ -1,0 +1,1 @@
+This is a software for mobile devices project which is going to be built in java.
