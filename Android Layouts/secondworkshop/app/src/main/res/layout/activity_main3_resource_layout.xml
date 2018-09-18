@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3ResourceLayout">
+
+
+
+
+
+
+    <TextView
+
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="L15-4529"
+        android:textSize="60dp" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="114dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="197dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginBottom="246dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Gender" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="296dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginBottom="97dp"
+        android:text="*Accept Terms and Conditions"
+        android:onClick="check_checkbox"
+
+
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="Register"
+        android:onClick="showtoast1"
+        />
+
+    <RadioGroup
+        android:id="@+id/rr"
+        android:layout_width="182dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="-246dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MALE"
+            android:onClick="check_button"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="female"
+            android:onClick="check_button"
+            />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>
